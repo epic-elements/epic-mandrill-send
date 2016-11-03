@@ -1,0 +1,28 @@
+{
+  "name": "epic-mandrill-send",
+  "version": "0.0.0",
+  "description": "A simple app for using Mandrill API to send emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epic-elements/epic-mandrill-send.git"
+  },
+  "keywords": [
+    "Email",
+    "mandrill",
+    "api"
+  ],
+  "author": "Alex Goodwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epic-elements/epic-mandrill-send/issues"
+  },
+  "homepage": "https://github.com/epic-elements/epic-mandrill-send",
+  "dependencies": {
+    "mandrill-api": "^1.0.45"
+  }
+}
